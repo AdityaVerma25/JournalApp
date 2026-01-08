@@ -34,5 +34,6 @@ JournalApp is a simple and secure journaling application that allows users to wr
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure<img width="4096" height="1532" alt="JournalApp" src="https://github.com/user-attachments/assets/acd3bd14-1654-4ab5-b460-8eaef3872c1f" />
+
 
