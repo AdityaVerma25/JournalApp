@@ -32,8 +32,51 @@ JournalApp is a simple and secure journaling application that allows users to wr
 - Git & GitHub
 - IntelliJ IDEA
 
----
+GeneralApp
+│
+├── .gitignore
+├── README.md
+├── pom.xml
+│
+└── src
+    └── main
+        ├── java
+        │   └── com
+        │       └── generalapp
+        │           ├── GeneralAppApplication.java
+        │           │
+        │           ├── config
+        │           │   ├── SecurityConfig.java
+        │           │   ├── SwaggerConfig.java
+        │           │   └── RedisConfig.java
+        │           │
+        │           ├── controller
+        │           │   ├── AuthController.java
+        │           │   ├── UserController.java
+        │           │   └── HealthController.java
+        │           │
+        │           ├── service
+        │           │   ├── UserService.java
+        │           │   ├── JournalEntryService.java
+        │           │   ├── EmailService.java
+        │           │   ├── RedisService.java
+        │           │   ├── WeatherService.java
+        │           │   └── impl
+        │           │       └── UserServiceImpl.java
+        │           │
+        │           ├── repository
+        │           │   └── UserRepository.java
+        │           │   └── JournalEntryRepository.java
+        │           │   └── ApiResponseRepository.java
+        │           │
+        │           │
+        │           ├── util
+        │               ├── JwtUtil.java
+        │               └── JwyAuthenticationFilter.java
+        │
+        └── resources
+            ├── application.properties
+            └── logback.xml
 
-## 📂 Project Structure<img width="4096" height="1532" alt="JournalApp" src="https://github.com/user-attachments/assets/acd3bd14-1654-4ab5-b460-8eaef3872c1f" />
 
 
